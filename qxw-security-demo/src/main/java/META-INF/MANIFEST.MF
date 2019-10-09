@@ -1,0 +1,39 @@
+Manifest-Version: 1.0
+Main-Class: com.qxw.security.DemoApplication
+Class-Path: jedis-2.9.0.jar validation-api-1.1.0.Final.jar spring-securi
+ ty-rsa-1.0.3.RELEASE.jar javax.inject-1.jar commons-collections-3.2.2.j
+ ar jackson-mapper-asl-1.9.13.jar spring-boot-starter-actuator-1.5.6.REL
+ EASE.jar spring-security-web-4.2.3.RELEASE.jar jul-to-slf4j-1.7.25.jar 
+ spring-data-redis-1.8.6.RELEASE.jar spring-boot-starter-data-redis-1.5.
+ 6.RELEASE.jar tomcat-embed-websocket-8.5.16.jar jboss-logging-3.3.1.Fin
+ al.jar tomcat-embed-core-8.5.16.jar spring-cloud-starter-security-1.2.1
+ .RELEASE.jar commons-pool2-2.4.2.jar commons-beanutils-1.9.3.jar spring
+ -jdbc-4.3.10.RELEASE.jar jackson-core-asl-1.9.13.jar spring-webmvc-4.3.
+ 10.RELEASE.jar tomcat-embed-el-8.5.16.jar spring-boot-starter-security-
+ 1.5.6.RELEASE.jar spring-aop-4.3.10.RELEASE.jar spring-tx-4.3.10.RELEAS
+ E.jar spring-expression-4.3.10.RELEASE.jar snakeyaml-1.17.jar spring-co
+ ntext-support-4.3.10.RELEASE.jar spring-boot-1.5.6.RELEASE.jar spring-b
+ oot-autoconfigure-1.5.6.RELEASE.jar spring-boot-starter-logging-1.5.6.R
+ ELEASE.jar spring-social-core-1.1.4.RELEASE.jar spring-security-core-4.
+ 2.3.RELEASE.jar spring-security-jwt-1.0.8.RELEASE.jar spring-cloud-star
+ ter-1.2.3.RELEASE.jar spring-core-4.3.10.RELEASE.jar hibernate-validato
+ r-5.3.5.Final.jar commons-codec-1.10.jar spring-oxm-4.3.10.RELEASE.jar 
+ spring-data-keyvalue-1.2.6.RELEASE.jar aopalliance-1.0.jar spring-boot-
+ starter-web-1.5.6.RELEASE.jar spring-social-web-1.1.4.RELEASE.jar log4j
+ -over-slf4j-1.7.25.jar commons-lang-2.6.jar spring-boot-starter-1.5.6.R
+ ELEASE.jar jackson-annotations-2.8.0.jar spring-web-4.3.10.RELEASE.jar 
+ bcpkix-jdk15on-1.56.jar spring-cloud-commons-1.2.3.RELEASE.jar slf4j-ap
+ i-1.7.25.jar spring-security-oauth2-2.0.14.RELEASE.jar spring-security-
+ crypto-4.2.3.RELEASE.jar jackson-databind-2.8.9.jar spring-social-confi
+ g-1.1.4.RELEASE.jar logback-classic-1.1.11.jar mysql-connector-java-5.1
+ .43.jar spring-cloud-starter-oauth2-1.2.1.RELEASE.jar spring-cloud-secu
+ rity-1.2.1.RELEASE.jar spring-data-commons-1.13.6.RELEASE.jar spring-cl
+ oud-context-1.2.3.RELEASE.jar spring-beans-4.3.10.RELEASE.jar logback-c
+ ore-1.1.11.jar tomcat-jdbc-8.5.16.jar spring-boot-actuator-1.5.6.RELEAS
+ E.jar classmate-1.3.3.jar spring-boot-starter-jdbc-1.5.6.RELEASE.jar bc
+ prov-jdk15on-1.56.jar spring-session-1.3.1.RELEASE.jar spring-social-se
+ curity-1.1.4.RELEASE.jar spring-security-config-4.2.3.RELEASE.jar sprin
+ g-boot-starter-tomcat-1.5.6.RELEASE.jar jackson-core-2.8.9.jar jcl-over
+ -slf4j-1.7.25.jar tomcat-juli-8.5.16.jar spring-context-4.3.10.RELEASE.
+ jar
+

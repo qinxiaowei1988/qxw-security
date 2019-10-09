@@ -1,0 +1,5 @@
+# Project exclude paths
+/qxw-security-app/target/
+/qxw-security-browser/target/
+/qxw-security-core/target/
+/qxw-security-demo/target/

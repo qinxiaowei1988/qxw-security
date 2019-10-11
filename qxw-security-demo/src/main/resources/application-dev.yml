@@ -13,4 +13,4 @@ spring:
     store-type: none  #暂时关掉Session
 security:  #四K瑞提
   basic:
-    enabled: false  #关闭身份验证
+    enabled: true  #关闭身份验证

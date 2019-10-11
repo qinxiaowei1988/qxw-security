@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class TimeAspect {
     private Logger logger =LoggerFactory.getLogger(getClass());
-    @Around("execution(* com.qxw.security.controller.UserController.*(..))")
+    @Around("execution(* com.qxw.security.controller.*.*(..))")
     public Object handleControllerMethod(ProceedingJoinPoint pjp)throws  Throwable{
         logger.info("@Around环绕通知："+pjp.getSignature().toString());
         Object obj = null;

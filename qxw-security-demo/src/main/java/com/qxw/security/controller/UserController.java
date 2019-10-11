@@ -3,6 +3,9 @@ package com.qxw.security.controller;
 import com.fasterxml.jackson.annotation.JsonView;
 import com.qxw.security.entity.User;
 import com.qxw.security.entity.dto.UserQueryCondition;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
 import org.springframework.web.bind.annotation.*;
@@ -13,11 +16,12 @@ import java.util.Collection;
 import java.util.Date;
 import java.util.List;
 
+@Api("用户接口")
 @RestController
 @RequestMapping("user")
 public class UserController {
 
-
+    @ApiOperation(value="用户接口")
     @GetMapping(value = "findAll")
     @JsonView(User.UserSimpleView.class)
     public Collection<User> findAll(UserQueryCondition user){
@@ -41,7 +45,7 @@ public class UserController {
         return user;
     }
     @PutMapping("/{userId:\\d+}")
-    public  User update(@PathVariable Integer userId){
+    public  User update(@ApiParam("用户ID") @PathVariable Integer userId){
 
         return null;
     }
